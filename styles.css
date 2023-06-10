@@ -1,0 +1,445 @@
+/* CSS styling for the banner, content box, and footer */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow: auto;
+  }
+.small {
+  font-size: 10px;
+}
+/* Banner at the top of each page */
+  .homeBanner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #999;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    z-index: 999;
+    border-bottom: 2px solid black;
+  }
+
+  .futureBanner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2986cc;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    z-index: 999;
+    border-bottom: 2px solid black;
+  }
+
+  .aboutBanner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #c3faab;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    z-index: 999;
+    border-bottom: 2px solid black;
+  }
+
+  .connectBanner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffa69e;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    z-index: 999;
+    border-bottom: 2px solid black;
+  }
+
+  /* Name at the top of each page */
+  .homeName {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 20px;
+    color: #333;
+    font-family: "Segoe Script", cursive;
+    transition: transform 0.2s ease;
+  }
+
+  .aboutName {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 20px;
+    color: #085dc4;
+    font-family: "Segoe Script", cursive;
+    transition: transform 0.2s ease;
+  }
+  .futureName {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 20px;
+    color: #ff76ed;
+    font-family: "Segoe Script", cursive;
+    transition: transform 0.2s ease;
+  }
+
+  .connectName {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 20px;
+    color: #ff0000;
+    font-family: "Segoe Script", cursive;
+    transition: transform 0.2s ease;
+  }
+
+  /* hover affect over each button at the top of the page */
+  .homeName:hover {
+    transform: scale(0.5);
+  }
+
+  .homeButtons:hover {
+    transform: scale(1.5);
+  }
+
+  .futureName:hover {
+    transform: scale(0.5);
+  }
+
+  .futureButtons:hover {
+    transform: scale(1.5);
+  }
+
+  .aboutName:hover {
+    transform: scale(0.5);
+  }
+
+  .aboutButtons:hover {
+    transform: scale(1.5);
+  }
+  .connectName:hover {
+    transform: scale(0.5);
+  }
+
+  .connectButtons:hover {
+    transform: scale(1.5);
+  }
+
+
+  /* button container at the top of each page */
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .left-buttons {
+    margin-right: 10px;
+  }
+
+  .right-buttons {
+    margin-left: 10px;
+  }
+
+  /* buttons at the top of each page*/
+  .homeButtons {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Segoe Script", cursive;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+
+  .futureButtons {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Segoe Script", cursive;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+  .aboutButtons {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    color: #1e7ced;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Segoe Script", cursive;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+
+  .connectButtons {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Segoe Script", cursive;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+
+  /* Big box on home page */
+  .homeContentBox {
+    background-color: #999;
+    border-radius: 40px;
+    padding: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%; /* Adjust the width as desired */
+    height: 70%; /* Adjust the height as desired */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+.futureContentBox {
+    background: linear-gradient(to bottom, #2986cc, #ffffff);
+    border-radius: 40px;
+    padding: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%; /* Adjust the width as desired */
+    height: 70%; /* Adjust the height as desired */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+  .aboutContentBox {
+    background: linear-gradient(to bottom, #c3faab, #ffffff);
+    border-radius: 40px;
+    padding: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%; /* Adjust the width as desired */
+    height: 70%; /* Adjust the height as desired */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+  /* smaller box on home page */
+  .homeInnerBox {
+    background: linear-gradient(to bottom, #999, #ccc); /* Gradient background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    font-family: "Segoe Script", cursive;
+  }
+    .futureInnerBox {
+    background: linear-gradient(to bottom, #2986cc, #ffffff); /* Gradient background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    font-family: "Segoe Script", cursive;
+  }
+  .aboutInnerBox {
+    background: linear-gradient(to bottom, #c3faab, #ffffff); /* Gradient background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    font-family: "Segoe Script", cursive;
+  }
+
+  /* wrting in the small box on home page */
+  .homePageContent {
+    background: linear-gradient(to bottom, #999, #ccc);
+    min-height: calc(100vh - 80px); /* Adjust the value based on the height of the banner and footer */
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .futurePageContent {
+    background: linear-gradient(to bottom, #2986cc, #ffffff);
+    min-height: calc(100vh - 80px); /* Adjust the value based on the height of the banner and footer */
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .aboutPageContent {
+    background: linear-gradient(to bottom, #c3faab, #ffffff);
+    min-height: calc(100vh - 80px); /* Adjust the value based on the height of the banner and footer */
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .connectPageContent {
+    background: linear-gradient(to bottom, #ffa69e, #ffffff);
+    min-height: calc(100vh - 80px); /* Adjust the value based on the height of the banner and footer */
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+
+  /* footer on each page */
+  .homeFooter {
+    text-align: center;
+    padding: 10px;
+    color: #333;
+    font-family: "Segoe Script", cursive;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .futureFooter {
+    text-align: center;
+    padding: 10px;
+    color: #ff76ed;
+    font-family: "Segoe Script", cursive;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .aboutFooter {
+    text-align: center;
+    font-size: 10px
+    padding: 10px;
+    color: #085dc4;
+    font-family: "Segoe Script", cursive;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2px solid black;
+  }
+  .connectFooter {
+    text-align: center;
+    padding: 10px;
+    color: #ff0000;
+    font-family: "Segoe Script", cursive;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  /* centre text */
+  .center {
+    text-align: center;
+  }
+
+  /* copyright tag */
+  .copyright {
+    text-align: right;
+    font-size: 5px;
+  }
+/* CSS styles for the dropdown menu */
+.dropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.dropdown button {
+  background-color: linear-gradient(#ffa69e, #ffffff);
+  color: #ff0000;
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  font-family: "Segoe Script", cursive;
+  font-size: 30px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 8px 0;
+  border-radius: 4px;
+  overflow: hidden;
+  top: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+  align: center;
+}
+
+.dropdown-content img {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* CSS styles for the cool effect */
+.dropdown button.clicked {
+  background-color: #ff76ed;
+}
+
+.h1About {
+  font-family: "Segoe Script", cursive;
+  color: #085dc4;
+}
+
+.p {
+  text-align: center;
+  font-family: "Segoe Script", cursive;
+  color: #085dc4;
+  font-size: 10px
+}
+
+.smallFont {
+  font-size: 10px;
+}
